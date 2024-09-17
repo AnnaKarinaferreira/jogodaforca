@@ -24,7 +24,7 @@
 }
 
 .login__input{
-    border: 2px solid #333;
+    border: 2px solid #14591D;
     border-radius: 8px;
     color: #333;
     font-size: 1em;
@@ -36,7 +36,7 @@
 }
 
 .login__button{
-    background-color: #ee665c;
+    background-color: rgb(20, 89, 29);
     border-radius: 8px;
     color: #fff;
     cursor: pointer;
@@ -44,6 +44,9 @@
     max-width: 300px;
     padding: 15px;
     width: 100%;
+    opacity: 0.8;
+   transform: scale(1.1);
+   box-shadow: 0 0 10px rgb(20, 89, 29);
 }
 
 .login__button:disabled {
@@ -51,3 +54,10 @@
     color: #aaa;
     cursor: auto;
 }
+
+.img{
+    transition: all 0.3s ease-in-out;
+    border-radius: 50vw;
+    margin-bottom: 1rem;
+}
+
